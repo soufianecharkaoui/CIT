@@ -1,0 +1,74 @@
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+#home-section {
+  background: url('../img/home_bg.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  padding-top: 150px;
+}
+.algo {
+  background: url(../img/algo.jpeg);
+  background-size: cover;
+}
+.web {
+  background: url(../img/web.jpeg);
+  background-size: cover;
+}
+.design {
+  background: url(../img/design.jpeg);
+  background-size: cover; 
+}
+.securite {
+  background: url(../img/securite.jpeg);
+  background-size: cover;
+}
+.mobile {
+  background: url(../img/mobile.jpeg);
+  background-size: cover;
+}
+.communication {
+  background: url(../img/communication.jpeg);
+  background-size: cover;
+}
+.static {
+  margin: 30px 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border: #3292a6 solid 2px;
+  border-radius: 100%;
+  padding-top: 30px;
+  transition: 1s;
+  cursor: pointer;
+  background-color: #3292a6;
+}
+.static:hover {
+  background-color: white;
+  color: #3292a6;
+}
+.member:hover {
+  background-color: #3292a6;
+  color: white;
+  transition: 1s;
+  box-shadow: none;
+}
+.member:hover .fa {
+  background-color: #3292a6;
+  color: white;
+  transition: 1s;
+}
+.member .fa {
+  color: #3292a6;
+}
